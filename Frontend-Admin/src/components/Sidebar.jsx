@@ -46,7 +46,7 @@ const Sidebar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("https://softwaretestinghospital-2.onrender.com/api/v1/user/admin/logout", {
+      .get("https://softwaretestinghospital-345.onrender.com/api/v1/user/admin/logout", {
         withCredentials: true,
       })
       .then((res) => {

@@ -14,7 +14,7 @@ const Doctors = () => {
     const fetchDoctors = async () => {
       try {
         const { data } = await axios.get(
-          "https://softwaretestinghospital-2.onrender.com/api/v1/user/doctors",
+          "https://softwaretestinghospital-345.onrender.com/api/v1/user/doctors",
           { withCredentials: true }
         );
         setDoctors(data.doctors);

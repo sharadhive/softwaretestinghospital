@@ -17,7 +17,7 @@ const Dashboard = () => {
     const fetchAppointments = async () => {
       try {
         const { data } = await axios.get(
-          "https://softwaretestinghospital-2.onrender.com/api/v1/appointment/getall",
+          "https://softwaretestinghospital-345.onrender.com/api/v1/appointment/getall",
           { withCredentials: true }
         );
         setAppointments(data.appointments);
@@ -34,7 +34,7 @@ const Dashboard = () => {
   const updateStatus = async (appointmentId, status) => {
     try {
       const { data } = await axios.put(
-        `https://softwaretestinghospital-2.onrender.com/api/v1/appointment/update/${appointmentId}`,
+        `https://softwaretestinghospital-345.onrender.com/api/v1/appointment/update/${appointmentId}`,
         { status },
         { withCredentials: true }
       );
