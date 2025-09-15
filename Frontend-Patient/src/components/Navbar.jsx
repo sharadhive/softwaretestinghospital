@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("https://softwaretestinghospital-2.onrender.com/api/v1/user/patient/logout", {
+      .get("https://softwaretestinghospital-345.onrender.com/api/v1/user/patient/logout", {
         withCredentials: true,
       })
       .then((res) => {
