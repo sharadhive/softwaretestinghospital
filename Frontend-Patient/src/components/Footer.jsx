@@ -25,31 +25,31 @@ const Footer = () => {
           </div>
           <div>
             <h4>Developed by</h4>
-            <p>Muhammad Fairooz/Sharad Yadav</p>
+            <p>Sharad Yadav</p>
             <div className="social-icons">
               <a
-                href="https://fairooz2150.github.io/Fairooz/"
+                href="https://softwaretestinghospital-2.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <IoGlobeOutline />
               </a>
               <a
-                href="https://www.linkedin.com/in/muhammad-fairooz-0b1136268/?trk=public-profile-join-page"
+                href="https://softwaretestinghospital-2.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <RxLinkedinLogo />
               </a>
               <a
-                href="https://github.com/Fairooz2150"
+                href="https://softwaretestinghospital-2.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub />
               </a>
               <a
-                href="https://www.instagram.com/marsh__mell_o/?igsh=MWhwZmI5NDRsMWoxMQ%3D%3D"
+                href="https://softwaretestinghospital-2.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
